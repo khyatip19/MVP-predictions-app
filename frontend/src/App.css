@@ -1,0 +1,76 @@
+/* App.css */
+.App {
+  text-align: center;
+  background-color: #1a1a1a;
+  color: white;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 2em;
+  margin-top: 40px;
+}
+
+.podium-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 20px;
+  gap: 2rem;
+  position: relative;
+}
+
+.podium-step {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.podium-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.podium-rank {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fff;
+  position: absolute;
+  top: -30px;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.first {
+  background-color: #ffcc00;
+  border: 3px solid gold;
+}
+
+.second {
+  background-color: #c0c0c0;
+  border: 3px solid silver;
+}
+
+.third {
+  background-color: #b87333;
+  border: 3px solid #cd7f32;
+}
+
+.player-card:hover {
+  background-color: #444;
+}
+
+.player-card img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
