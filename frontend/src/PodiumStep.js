@@ -52,7 +52,6 @@ export default function PodiumStep({ podium, winner, winnerIndex }) {
           borderColor: 'rgba(190,24,93,1)',
           borderTopLeftRadius: '.5rem',
           borderTopRightRadius: '.5rem',
-          filter: `opacity(${0.1 + offset / podium.length})`,
           marginBottom: -1,
           placeContent: 'center',
           width: '6rem', // Increased width of the podium bars
